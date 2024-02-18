@@ -1,0 +1,7 @@
+.main
+{
+    background: url(./assets/images/img1.jpg);
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}

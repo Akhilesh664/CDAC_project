@@ -1,20 +1,17 @@
 import Data from "./components/Data";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
+import "./app.css";
 
 function App() {
   return (
-    <wrapper>
-      <Sidebar/>
-      <main>
+      <div className="main">
+        <Header/>
         <div className="app">
-          <Header/>
-        </div>
-        <div>
+          <Sidebar/>
           <Data/>
         </div>
-      </main>
-    </wrapper>
+      </div>
   );
 }
 
